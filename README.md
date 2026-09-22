@@ -1,17 +1,14 @@
-# TM Tools for Maya
+# TM Tools — ダウンロード
 
-Maya用TM Toolsの公式配布ページです。Google Drive、Dropbox、フォルダ選択設定は使いません。
+MayaとBlenderの配布ページです。最初に使うファイルは次の2つだけです。
 
-## 最初の1回（新規・旧版）
+| 製品 | 最初の1回 | 次回からの更新 |
+|---|---|---|
+| Maya | [Update_TM_Tools.py](https://github.com/KarakuriKissa/TM-Tools-Releases/releases/latest/download/Update_TM_Tools.py) を3D画面へドラッグ | TM Tools → TM Toolsを更新... |
+| Blender | [TM_Tools_Blender_Install.zip](https://github.com/KarakuriKissa/TM-Tools-Releases/releases/latest/download/TM_Tools_Blender_Install.zip) を Install from Disk で指定 | 3Dビューの N → tm System → tm Updater |
 
-1. [Update_TM_Tools.py](https://github.com/KarakuriKissa/TM-Tools-Releases/releases/latest/download/Update_TM_Tools.py) をダウンロードする。Mayaの新規導入と旧版の復旧で同じファイルを使う。
-2. `Update_TM_Tools.py` をMayaの3D画面へドラッグ＆ドロップする。
-3. 完了表示後にMayaを再起動する。
+更新後は使っているDCCを再起動してください。Mayaの旧版からの復旧にも上記の `Update_TM_Tools.py` を使えます。BlenderのZIPは展開せず、アドオン一覧で **TM Tools Installer** を有効にします。
 
-## 通常の更新
+[Mayaの詳しい手順](https://karakuri-tools.karakurikissa.workers.dev/maya.html) · [Blenderの詳しい手順](https://karakuri-tools.karakurikissa.workers.dev/blender.html) · [Blenderヘルプ](https://karakuri-tools.karakurikissa.workers.dev/help/blender/index.html) · [すべてのリリース](https://github.com/KarakuriKissa/TM-Tools-Releases/releases)
 
-1. Mayaのメニューバーで `TM Tools → TM Toolsを更新...` を押す。
-2. 「今すぐ更新」を押す。
-3. 完了表示後にMayaを再起動する。
-
-更新時はGitHub Releasesから最新版を取得し、バージョン、SHA256、ZIP内容を検証します。現在のツールは `tm_tools_backup` に退避され、置き換えに失敗した場合は元へ戻ります。
+`tm_tools_maya.zip` と `tm_tools_blender.zip` は更新機能がダウンロードする本体です。最初に手動で開くファイルではありません。
