@@ -2,16 +2,9 @@
 
 Maya用TM Toolsの公式配布ページです。Google Drive、Dropbox、フォルダ選択設定は使いません。
 
-## 新規インストール
+## 最初の1回（新規・旧版）
 
-1. 最新リリースの `tm_tools_maya.zip` をダウンロードする。
-2. ZIPを右クリックして「すべて展開」する。
-3. 展開した `install_tm_tools.py` をMayaの3D画面へドラッグ＆ドロップする。
-4. 完了表示後にMayaを再起動する。
-
-## 旧版から最初の1回だけ更新
-
-1. [Update_TM_Tools.py](https://github.com/KarakuriKissa/TM-Tools-Releases/releases/latest/download/Update_TM_Tools.py) をダウンロードする。
+1. [Update_TM_Tools.py](https://github.com/KarakuriKissa/TM-Tools-Releases/releases/latest/download/Update_TM_Tools.py) をダウンロードする。Mayaの新規導入と旧版の復旧で同じファイルを使う。
 2. `Update_TM_Tools.py` をMayaの3D画面へドラッグ＆ドロップする。
 3. 完了表示後にMayaを再起動する。
 
